@@ -4,7 +4,7 @@ import joblib
 #load the joblib model
 model_nb=joblib.load('googlplaystore')
 
-st.title('GOOGLE PLAYSTORE')
+st.title('googleplaystore')
 ip=st.text_input('Enter:')
 
 op=model_nb.predict([ip])
