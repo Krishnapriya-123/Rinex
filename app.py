@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 #load the joblib model
-model_nb=joblib.load('googlplaystore')
+model_nb=joblib.load('googleplaystore')
 
 st.title('googleplaystore')
 ip=st.text_input('Enter:')
